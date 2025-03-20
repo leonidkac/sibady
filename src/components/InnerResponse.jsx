@@ -10,7 +10,7 @@ export default function InnerResponse({ pagFilter, seachData }) {
 
     // Проверяем, что seachData - это массив
     if (!Array.isArray(seachData)) {
-        return <div>No</div>;
+        return <div>None</div>;
     }
 
     return (
